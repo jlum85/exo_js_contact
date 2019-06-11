@@ -30,7 +30,7 @@ class contactManager {
       const newContact = new Contact(nom, prenom);  
       // Ajout du contact dans la liste
       this.listContacts.push (newContact);  
-      if ( !nolog ) { 
+      if ( !noLog ) { 
         console.log ("Le nouveau contact a été ajouté.");        
       }
     }
